@@ -28,7 +28,7 @@ const Education = () =>{
                 <h3>Tecnicatura Universitaria en Programacion</h3>
 
                     <p>
-                        Realizado desde enero de 2023 y ya finalizado, durante el curso se llevaron a cabo proyectos individuales y un proyecto final en equipo. Durante este proceso, desarrollé habilidades técnicas en JavaScript, React, NodeJS, Express, Sequelize, PostgreSQL y Redux. Durante la instancia del proyecto final, adquirí competencias en el manejo de GitHub, Scrum, Trello, resolución de problemas, proactividad y trabajo en equipo.</p> 
+                    Estoy cursando una carrera que comencé en 2022 y en la que estoy desarrollando habilidades técnicas en C# y SQL Server. Además, estoy recibiendo una sólida formación en programación orientada a objetos y contenidos afines al desarrollo, como análisis matemático y estadística. En esta carrera se enfatiza el trabajo en equipo, la resiliencia y la resolución de problemas, y para ello se realizan constantemente trabajos grupales.</p> 
                 </div>
             </div>
         </div>
