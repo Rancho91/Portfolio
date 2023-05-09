@@ -1,0 +1,18 @@
+.conteiner{
+    display: flex;
+    justify-content: space-between;
+    gap:15px;
+    padding: 50px;
+    margin: 15px;
+
+}
+
+.conteiner h3 {
+    font-size: 18px;
+    margin: 5px 0;
+    font-weight: bold;
+  }
+.conteiner img{
+    
+    height: 25px;
+}
