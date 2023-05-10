@@ -56,3 +56,49 @@
     border: 10px solid;
     border-image: linear-gradient(to right, #ff416c, #ff4b2b);
   }
+
+  @media screen and (max-width: 768px) {
+    .conteiner {
+      margin: 50px;
+      padding: 50px;
+    }
+    .description {
+      font-size: 1rem;
+    }
+    .description img {
+      border: 5px solid;
+    }
+  }
+  
+  @media screen and (max-width: 480px) {
+    .conteiner {
+      margin: 20px;
+      padding: 20px;
+    }
+    .description {
+      font-size: 0.9rem;
+      margin: 10px 0;
+    }
+    .description img {
+      border: 3px solid;
+    }
+  }
+  @media screen and (max-width: 480px) {
+    .conteiner {
+      margin: 20px;
+      padding: 20px;
+    }
+    .description {
+      font-size: 1rem;
+      margin: 10px 0;
+      flex-direction: column;
+      text-align: center;
+      align-items: center;
+    }
+    .description img {
+      border: 3px solid;
+      height: 120px;
+      margin-bottom: 10px;
+    }
+  }
+  

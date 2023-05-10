@@ -7,7 +7,7 @@ const Education = () =>{
 
     return(
         <div className={styles.conteiner}>
-            <div className={styles.box}>
+            <div className={styles.boxUTN}>
                 <div className={styles.title}>
                     <h2>Soy Henry</h2>
                     <img src="https://res.cloudinary.com/dxatwbzff/image/upload/v1683546008/logoOG_t1pjbj.png" alt="" />    
