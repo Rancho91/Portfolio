@@ -1,18 +1,35 @@
-.conteiner{
+.conteiner {
     display: flex;
     justify-content: space-between;
-    gap:15px;
-    padding: 50px;
-    margin: 15px;
-
-}
-
-.conteiner h3 {
-    font-size: 18px;
-    margin: 5px 0;
+    gap: 2%;
+    padding: 5%;
+    margin: 2%;
+  }
+  
+  .conteiner h3 {
+    font-size: 2vw;
+    margin: 2% 0;
     font-weight: bold;
   }
-.conteiner img{
-    
-    height: 25px;
-}
+  
+  .conteiner img {
+    height: 2vw;
+  }
+
+  @media only screen and (max-width: 768px) {
+    .conteiner {
+      flex-direction: column;
+      padding: 2%;
+    }
+    .conteiner > * {
+      margin: 2% 0;
+    }
+    .conteiner img {
+      height: 20px;
+    }
+    .conteiner h3 {
+        font-size: 4vw;
+        margin: 2% 0;
+        font-weight: bold;
+      }
+  }
