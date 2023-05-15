@@ -48,6 +48,7 @@ const Home = () => {
                     tecnologies={proyect.tecnologies}
                     description={proyect.description}
                     git={proyect.git}
+                    youtube={proyect.youtube?proyect.youtube:null}
                   />
                 ))
               ) : null}

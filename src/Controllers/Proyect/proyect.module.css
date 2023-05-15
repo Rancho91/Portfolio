@@ -46,7 +46,20 @@
   .image{
     padding: 5px;
     width: 50px;
+    padding:10%;
   }
+  .imageGit{
+    padding: 5px;
+    width: 50px;
+    margin-top:10%;
+  }
+
+  .imgYoutube{
+    padding: 5px;
+    width: 120px;
+    margin-top:10%;
+  }
+
 
 
   

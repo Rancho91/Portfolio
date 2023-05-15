@@ -5,7 +5,7 @@ const proyect = [
         git:"https://github.com/Rancho91/codergame",
         gitBack:"https://github.com/Rancho91/codergame-back-1",
         description:"Realicé el proyecto final en grupo en Soy Henry, en el que desarrollamos e implementamos GitHub, Trello y Scrum. Construimos un marketplace de videojuegos, implementando filtros combinados, login con Auth0, pasarela de pago con Stripe y mensajería con NodeMailer. Además, creamos una base de datos relacional con más de 10 tablas, implementada con Sequelize. En la base de datos se realizó la lógica para lista de juegos favoritos, registro de videojuegos comprados, registro total de transacciones, saldo, perfiles y roles de usuario.",
-        youtube:"",
+        // youtube:"",
         tecnologies: [
             {
                 name: "React",
@@ -75,7 +75,6 @@ const proyect = [
         name: "Rick and Morty",
         image: "https://res.cloudinary.com/dxatwbzff/image/upload/v1681660415/Personal%20Proyects/desktop-wallpaper-rick-and-morty-logo-png-for-computer-supreme-rick-and-morty_vhfbtk.jpg",
         git:"https://github.com/Rancho91/RickAndMorty",
-        youtube:"",
         description:"Realicé un trabajo práctico en Soy Henry en el que puse en práctica todos los conceptos de React y NodeJs. En este proyecto, implementé filtrados, endpoints y practiqué el uso de Redux.",
         tecnologies: [ 
         {

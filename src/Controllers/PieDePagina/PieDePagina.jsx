@@ -20,13 +20,13 @@ const PieDePagina = () =>{
             <h3 className={styles.title}>Cordoba, Argentina</h3>
         </div>
        <div className='col-md-2 col-sm-12'>
-            <a href="https://www.linkedin.com/in/ramiro-sanchez-solano/">
+            <a href="https://www.linkedin.com/in/ramiro-sanchez-solano/" target="_blank">
             <img src="https://res.cloudinary.com/dxatwbzff/image/upload/v1681686708/Personal%20Proyects/Linkedin_wvwa2u.png" alt=""  className={`img-fluid ${styles.image}`}/>
             </a>
             <h3 className={styles.title}>Linkedin</h3>
         </div>
         <div className='col-md-2 col-sm-12'>
-        <a href="https://github.com/Rancho91">
+        <a href="https://github.com/Rancho91" target="_blank">
             <img src="https://res.cloudinary.com/dxatwbzff/image/upload/v1684165478/github_logo_icon_147285_zgpagr.png" alt="" 
             className={`img-fluid ${styles.image}`}/>
             </a>
