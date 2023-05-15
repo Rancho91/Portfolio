@@ -6,30 +6,17 @@
     margin: 2%;
   }
   
-  .conteiner h3 {
-    font-size: 2vw;
+  .title {
+    color: white;
+    font-size: 15px;
     margin: 2% 0;
     font-weight: bold;
+    white-space: normal;
+    word-wrap: break-word;
+    
   }
   
-  .conteiner img {
-    height: 2vw;
-  }
-
-  @media only screen and (max-width: 768px) {
-    .conteiner {
-      flex-direction: column;
-      padding: 2%;
-    }
-    .conteiner > * {
-      margin: 2% 0;
-    }
-    .conteiner img {
-      height: 20px;
-    }
-    .conteiner h3 {
-        font-size: 4vw;
-        margin: 2% 0;
-        font-weight: bold;
-      }
+  .image {
+    max-height: 50px;
+    min-height:25px
   }

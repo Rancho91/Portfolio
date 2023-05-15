@@ -27,43 +27,48 @@
 
 .conteinerButton{
   display: flex;
-  gap: 3%;
-  padding: 3%;
-  margin: 3%;
+  height: auto;
+  width:fit-content;
+  gap: 1%;
+  padding: 1%;
+  margin: 1%;
   justify-content: center;
+  border: 1px solid white;
+  border-radius: 50px;
+
 }
 
 .buttons  {
-  font-size: 1.5vw;
-  font-weight: bold;
-  color: #2f2c2c;
-  background-color: #d9b382;
-  border: none;
-  border-radius: 4px;
-  padding: 1% 2%;
-  margin-right: 3%;
-  cursor: pointer;
-  transition: all 0.3s ease;
-  box-shadow: 0.4vw 0.6vw 1.2vw 0.4vw rgb(0 0 0 / 61%);  
+  padding: 5px 10px;
+    font-size: 0.8rem;
+    font-weight: 500;
+    text-align: center;
+    text-transform: uppercase;
+    color: #fff;
+    background-color: rgba(0, 2, 20, 0.0);
+    border:none;
+    transition: transform 0.5s ease-in-out;  
 }
 
 .buttons:hover {
-  background-color: #b09062;
-  box-shadow: 0.3vw 0.2vw 0.8vw 0.4vw rgb(0 0 0 / 61%)
+  border-radius: 50px;
+  box-shadow: 0.3vw 0.2vw 0.8vw 0.4vw rgb(0 0 0 / 61%);
+  border: 1px solid wheat;
 }
 
 .selected {
-  font-size: 1.5vw;
-  font-weight: bold;
-  color: #d9b382;
-  background-color: #2f2c2c;
-  border: none;
-  border-radius: 4px;
-  padding: 1% 2%;
-  margin-right: 3%;
-  cursor: pointer;
-  transition: all 0.3s ease;
-  box-shadow: 0.4vw 0.6vw 1.2vw 0.4vw rgb(0 0 0 / 61%);  
+  padding: 5px 10px;
+  font-size: 0.8rem;
+  font-weight: 500;
+  text-align: center;
+  text-transform: uppercase;
+  color: #fff;
+  background-color: rgba(0, 2, 20, 0.1);
+  border: 1px solid white;
+ 
+  border-radius: 50px;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+  transition: transform 0.3s ease-in-out;
 }
 
 

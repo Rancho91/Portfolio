@@ -6,27 +6,29 @@ export default function Proyect ({name, image, tecnologies, description,git}){
 
 
     return(
-        <div className={styles.card}>
-            <div>
-                <h1>{name}</h1>
-                <img src={image} ></img>
+        <div className={`${styles.card}`}>
+            <div className="row">
+            <div className='col-md-4 col-sm-12 d-flex flex-column align-items-center justify-content-center' >
+                <h1 className={styles.title}>{name}</h1>
+                <img src={image } className={`img-fluid ${styles.imageCard}`}></img>
             </div>   
-            <div className={styles.body}>
-            <p>{description}</p>
-            <a href={git}> <img src="https://res.cloudinary.com/dxatwbzff/image/upload/v1681686708/Personal%20Proyects/GitHub_hpyl4c.png" alt="" /></a> 
+            <div className='col-md-8'>
+            <p className={styles.parrafo}>{description}</p>
+            <a href={git}> <img src="https://res.cloudinary.com/dxatwbzff/image/upload/v1684165478/github_logo_icon_147285_zgpagr.png" alt=""className={`img-fluid ${styles.image}`} /></a> 
 
-            <div className={styles.tecnologies}>
+            <div className='row'>
                 {tecnologies.map(tecnology=>{
                     return(
-                        <div className={styles.tecnology}>
-                            {/* <h1>{tecnology.name}</h1> */}
-                            <img src={tecnology.image}/>
+                        <div className='col'>
+                             <h1 className={styles.tecnologyTitle}>{tecnology.name}</h1>
+                            <img src={tecnology.image} className={`img-fluid ${styles.image}`}/>
                         </div>
                     )
                  })} 
                  
                 </div>
             </div>
+        </div>
     
         </div>
 

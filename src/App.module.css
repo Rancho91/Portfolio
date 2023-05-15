@@ -1,7 +1,9 @@
 
 .App {
   text-align: center;
-  background-image: url(https://res.cloudinary.com/dxatwbzff/image/upload/v1681659735/Personal%20Proyects/Fondo_zxlnqg.avif);
+  background-image: url(https://res.cloudinary.com/dxatwbzff/image/upload/v1684146805/espacio-estrellado-sobre-fondo-azul-oscuro_28633-293_ahjsvz.avif);
+  /* background: conic-gradient(at 0% 10%, rgb(0, 0, 0) 30%, rgb(126, 1, 1) 20%, #000000 20%); */
+
   color: rgb(0, 0, 0);
   width: 100%;
   height: 100vh;

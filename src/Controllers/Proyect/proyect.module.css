@@ -1,12 +1,6 @@
-.card img {
+.imageCard {
   max-width: 65%;
   border-radius: 50%;
-}
-
-.tecnologies img{
-    width: 60px;
-    border-radius: 0%;
-
 }
 .tecnologies{
   display: flex;
@@ -14,75 +8,45 @@
   align-items: center;
 }
 
+.title {
+  align-content:center;
+  padding: 2%;
+  flex-wrap: wrap;
+  margin: 0;
+  color: #ffffff;
+}
 .card{
-  display: grid;
-  grid-template-columns: 1fr 2fr;
-  grid-template-rows: repeat(2, auto);
-  gap: 20px;
-  padding: 2em;
-  margin: 1em;
-  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
-  background-color: rgba(245, 245, 220, 0.189);
-  align-items: center;
+   background-color: rgba(0, 0, 0, 0.1);
+   padding: 5%;
+  margin: 2%;
+ border: none;
+ border-radius: 25px;
+ box-shadow: inset -4px -4px 20px 8px rgb(18 102 141 / 25%);
+
 }
 
-.conteiner{
-    display:flex;
-    flex-direction: column;
+.tecnologyTitle{
+  font-size: 18px;
+  align-content:center;
+  padding: 2%;
+  flex-wrap: wrap;
+  margin: 0;
+  color: #ffffff;
 }
 
-.card p {
-    
+.parrafo {
     font-size: 16px;
     line-height: 1.5;
-    color: #333;
+    color: #fffdfd;
     text-align: justify;
     margin: 0;
     padding: 0;
   }
-  
-  .card p:first-of-type {
-    margin-top: 0;
-  }
-  
-  .card p:last-of-type {
-    margin-bottom: 0;
-  }
 
-  .body img{
+  .image{
     padding: 5px;
     width: 50px;
   }
 
-  .body{
-    padding-top:40px;
-  }
 
-  @media screen and (max-width: 768px) {
-    .card {
-      grid-template-columns: 1fr;
-      grid-template-rows: auto auto auto;
-    }
-    .tecnologies {
-      flex-wrap: wrap;
-    }
-  }
-  
-  @media screen and (max-width: 480px) {
-    .card {
-      padding: 1em;
-      margin: 0.5em;
-    }
-    .tecnologies {
-      justify-content: center;
-    }
-    .card p {
-      font-size: 14px;
-    }
-  }
-  @media (max-width: 768px) {
-    .card p {
-      font-size: 1.2rem;
-    }
-  }
   

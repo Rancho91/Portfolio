@@ -5,37 +5,57 @@ import styles from './Home.module.css'
 import Education from './Edication'
 import { useState } from 'react'
 
-const Home = () =>{
-
-    const [buttons, setButton] = useState(1)
-    const handleButton = (event) =>{
-        const id = Number(event.target.id)
-        setButton(id)
-    }
+const Home = () => {
+    const [buttons, setButton] = useState(1);
+  
+    const handleButton = (event) => {
+      const id = Number(event.target.id);
+      setButton(id);
+    };
+  
     return (
-    <div>
-        <div className={styles.conteinerButton}>
-            <button id='1' className={buttons==1?styles.selected:styles.buttons} onClick={handleButton}>Formacion Academica</button>
-            <button id='2' className={buttons==2?styles.selected:styles.buttons} onClick={handleButton}>Proyectos</button>
+      <div>
+        <div className='container'>
+          <div className='row '>
+            <div className='col-md-12'>
+              <button
+                id='1'
+                className={buttons === 1 ? styles.selected : styles.buttons}
+                onClick={handleButton}
+              >
+                Formacion Academica
+              </button>
+              <button
+                id='2'
+                className={buttons === 2 ? styles.selected : styles.buttons}
+                onClick={handleButton}
+              >
+                Proyectos
+              </button>
+            </div>
+          </div>
         </div>
-        
-        {
-            buttons === 1?(<div className={styles.containerFormation}>
-                <Education/>
-            </div>):null
-        }
-        {
-            buttons ===2?( <div className={styles.conteinerProyect}>
-                { proyect.map(proyect=><Proyect name={proyect.name} image={proyect.image} tecnologies={proyect.tecnologies} description={proyect.description} git={proyect.git}/>)}
-                
-         </div>):null
-        }
-   
-
-    </div>
-    )
-    
-
-}
+  
+        <div className='container'>
+          <div className='row'>
+            <div className='col-md-12'>
+              {buttons === 1 ? <Education /> : null}
+              {buttons === 2 ? (
+                proyect.map((proyect) => (
+                  <Proyect
+                    name={proyect.name}
+                    image={proyect.image}
+                    tecnologies={proyect.tecnologies}
+                    description={proyect.description}
+                    git={proyect.git}
+                  />
+                ))
+              ) : null}
+            </div>
+          </div>
+        </div>
+      </div>
+    );
+  };
 
 export default Home
