@@ -35,7 +35,7 @@ const Home = () => {
                 className={buttons === 2 ? styles.selected : styles.buttons}
                 onClick={handleButton}
               >
-               { leng==="ESP"?"Proyectos":"Proyects"}
+               { leng==="ESP"?"Proyectos":"Projects"}
               </button>
             </div>
           </div>
