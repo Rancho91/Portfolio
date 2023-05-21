@@ -1,0 +1,17 @@
+.buttons {
+    background-color: rgba(124, 183, 235, 0);
+    border: none;
+    border-radius: 15px;
+    color: aliceblue;
+    font-weight: bold;
+    font-family: Arial, sans-serif;
+  }
+  
+  .selected {
+    background-color: rgba(160, 170, 179, 0.533);
+    color: black;
+    border: none;
+    border-radius: 15px;
+    font-weight: bold;
+    font-family: Arial, sans-serif;
+  }

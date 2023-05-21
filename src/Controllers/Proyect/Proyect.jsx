@@ -19,7 +19,7 @@ export default function Proyect ({name, image, tecnologies, description,git, you
             <div className='col-md-8'>
             <p className={styles.parrafo}>{description}</p>
             <div className="row d-flex align-items-center justify-content-center">
-  <div className="col-md-3 d-flex align-items-center justify-content-center">
+  <div className="col-md-3 col-sm-2 ">
     <a href={git} target="_blank">
       <img
         src="https://res.cloudinary.com/dxatwbzff/image/upload/v1684165478/github_logo_icon_147285_zgpagr.png"
@@ -29,7 +29,7 @@ export default function Proyect ({name, image, tecnologies, description,git, you
       />
     </a>
   </div>
-  <div className="col-md-3 ">
+  <div className="col-md-3 col-sm-2 ">
     {youtube ? (
       <a href={youtube} target="_blank">
         <img
