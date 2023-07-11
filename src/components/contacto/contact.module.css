@@ -1,0 +1,61 @@
+.img{
+    height: 50px;
+}
+
+.button{
+    background-color: rgb(119 255 193);
+    border: none;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1.2rem;
+    font-weight: 800;
+    box-shadow:inset -6px -6px 20px 4px rgba(0, 0, 0, 0.697);
+    width: 100%;
+
+  }
+  .title {
+    align-content:center;
+  padding: 2%;
+  flex-wrap: wrap;
+  margin: 0;
+  color: rgb(23, 57, 41);
+  font-weight: 900;
+    
+  }
+  .container{
+    height: 100%;
+    display: grid;
+    align-items: baseline;
+  }
+  .textTarea{
+    width: 50vw;
+    height: 60vh;
+  }
+  .form{
+    height: 100%;
+    width: 100%;
+  }
+
+  .containerForm{
+    height: 100%;
+    width: 100%;
+  }
+  .containerTarea{
+    height: 100%;
+    width: 100%;
+
+  }
+.containerTarea textarea{
+    background-color: rgba(119, 255, 194, 0.436);
+    box-shadow:inset -1px -1px 20px 4px rgba(255, 255, 255, 0.697);
+}
+  .rowForm{
+    height: 100%;
+    width: 100%;
+  }
+  input{
+    width: 30vw;
+    height: 5vh;
+    background-color: rgba(119, 255, 194, 0.436);
+    box-shadow:inset -1px -1px 20px 4px rgba(255, 255, 255, 0.697);
+  }
+

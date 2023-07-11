@@ -1,5 +1,6 @@
 export const proyectE = [
     {
+        id:1,
         name: "CoderGame",
         image:"https://res.cloudinary.com/dxatwbzff/image/upload/v1683570816/WhatsApp_Image_2023-04-24_at_11.49.52_AM_1_tvlub9.jpg",
         git:"https://github.com/Rancho91/codergame",
@@ -9,7 +10,7 @@ export const proyectE = [
         tecnologies: [
             {
                 name: "React",
-                image: "https://res.cloudinary.com/dxatwbzff/image/upload/v1681660416/Personal%20Proyects/React-logo_zp2div.png",
+                image: "https://res.cloudinary.com/dxatwbzff/image/upload/v1689040858/download_jzv11e.png",
             },
             {
                  name: "JavaScript",
@@ -19,10 +20,10 @@ export const proyectE = [
                 name: "Nodejs",
                 image: "https://res.cloudinary.com/dxatwbzff/image/upload/v1681660415/Personal%20Proyects/node-js-icon-454x512-nztofx17_gyquru.png"
             },
-            // {
-            //     name: "Express",
-            //     image:"https://res.cloudinary.com/dxatwbzff/image/upload/v1681660415/Personal%20Proyects/Expressjs_caql8e.png",
-            // },
+             {
+             name: "Express",
+                 image:"https://res.cloudinary.com/dxatwbzff/image/upload/v1681660415/Personal%20Proyects/Expressjs_caql8e.png",
+             },
             {
                 name: "CSS",
                 image: "https://res.cloudinary.com/dxatwbzff/image/upload/v1681660423/Personal%20Proyects/888847_rczm01.png",
@@ -34,6 +35,7 @@ export const proyectE = [
         ]
     },
     {
+        id:2,
         name: "Food",
         image: "https://res.cloudinary.com/dxatwbzff/image/upload/v1681681753/Cooking-Recipe-PNG-Images_tr7i0y.png",
         git:"https://github.com/Rancho91/PI-Food-SanchezRamiro",
@@ -42,7 +44,7 @@ export const proyectE = [
         tecnologies: [
             {
                 name: "React",
-                image: "https://res.cloudinary.com/dxatwbzff/image/upload/v1681660416/Personal%20Proyects/React-logo_zp2div.png",
+                image: "https://res.cloudinary.com/dxatwbzff/image/upload/v1689040858/download_jzv11e.png",
             },
             {
                  name: "JavaScript",
@@ -52,10 +54,10 @@ export const proyectE = [
                 name: "Nodejs",
                 image: "https://res.cloudinary.com/dxatwbzff/image/upload/v1681660415/Personal%20Proyects/node-js-icon-454x512-nztofx17_gyquru.png"
             },
-            // {
-            //     name: "Express",
-            //     image:"https://res.cloudinary.com/dxatwbzff/image/upload/v1681660415/Personal%20Proyects/Expressjs_caql8e.png",
-            // },
+             {
+                 name: "Express",
+                 image:"https://res.cloudinary.com/dxatwbzff/image/upload/v1681660415/Personal%20Proyects/Expressjs_caql8e.png",
+             },
             {
                 name: "CSS",
                 image: "https://res.cloudinary.com/dxatwbzff/image/upload/v1681660423/Personal%20Proyects/888847_rczm01.png",
@@ -72,6 +74,7 @@ export const proyectE = [
     }
     ,
     {
+        id:3,
         name: "Rick and Morty",
         image: "https://res.cloudinary.com/dxatwbzff/image/upload/v1681660415/Personal%20Proyects/desktop-wallpaper-rick-and-morty-logo-png-for-computer-supreme-rick-and-morty_vhfbtk.jpg",
         git:"https://github.com/Rancho91/RickAndMorty",
@@ -79,7 +82,7 @@ export const proyectE = [
         tecnologies: [ 
         {
             name: "React",
-            image: "https://res.cloudinary.com/dxatwbzff/image/upload/v1681660416/Personal%20Proyects/React-logo_zp2div.png",
+            image: "https://res.cloudinary.com/dxatwbzff/image/upload/v1689040858/download_jzv11e.png",
         },
         {
              name: "JavaScript",
@@ -89,10 +92,10 @@ export const proyectE = [
             name: "Nodejs",
             image: "https://res.cloudinary.com/dxatwbzff/image/upload/v1681660415/Personal%20Proyects/node-js-icon-454x512-nztofx17_gyquru.png"
         },
-        // {
-        //     name: "Express",
-        //     image:"https://res.cloudinary.com/dxatwbzff/image/upload/v1681660415/Personal%20Proyects/Expressjs_caql8e.png",
-        // },
+         {
+             name: "Express",
+             image:"https://res.cloudinary.com/dxatwbzff/image/upload/v1681660415/Personal%20Proyects/Expressjs_caql8e.png",
+         },
         {
             name: "CSS",
             image: "https://res.cloudinary.com/dxatwbzff/image/upload/v1681660423/Personal%20Proyects/888847_rczm01.png",
@@ -107,7 +110,7 @@ export const proyectE = [
     
 ]
 
- export const abautE = "Hello, my name is Ramiro, and ever since I discovered the world of development, I have been actively pursuing a career in this field. Currently, I am a student in the Programming university program, and during my studies, I completed the Soy Henry bootcamp. This course allowed me to solidify my passion for this profession and motivated me to start searching for my first job in the IT world. I am a proactive and enthusiastic individual, always eager to learn and grow. Currently, I am focused on honing my skills in object-oriented programming and the SOLID principles. I have recognized the importance of these topics in project development and writing clean, reusable code, and I am motivated to apply them in my future work. Thank you for your time, and I look forward to your response. Thank you very much!"
+ export const abautE = "Hello, my name is Ramiro. I am a Full Stack web Developer. I consider myself a proactive and enthusiastic person who enjoys continuous learning. I am continuously improving my skills in object-oriented programming and the SOLID principles. I have knowledge in React, Node.js, SQL Server, PostgreSQL, JavaScript, TypeScript, C#, among others."
 
 export const educationE=[
         {

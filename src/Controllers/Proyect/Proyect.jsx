@@ -6,7 +6,7 @@ export default function Proyect ({name, image, tecnologies, description,git, you
 
 
     return(
-        <div className={`${styles.card}`}>
+        <div className={` container ${styles.card}`}>
             <div className="row">
             <div className='col-md-4 col-sm-12 d-flex flex-column align-items-center justify-content-center' >
                 <h1 className={styles.title}>{name}</h1>

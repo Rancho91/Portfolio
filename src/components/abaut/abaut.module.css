@@ -1,0 +1,51 @@
+.button{
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 1.2rem;
+    font-weight: 500;
+    text-align: center;
+    text-transform: uppercase;
+    color: #fff;
+    background-color: rgba(0, 2, 20, 0.98);
+    border: 1px solid white;
+   
+    border-radius: 50px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+    transition: transform 0.3s ease-in-out;
+    margin: 1%;
+}
+.button:hover {
+    transform: scale(1.1);
+  }
+
+  .container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+  }
+  
+  .rowCentered {
+    align-items: center;
+  }
+
+.description {
+    font-size: 1.1rem;
+    line-height: 1.5;
+    text-align: justify;
+    padding: 2%;
+    font-size: 1.3rem;
+    color: rgb(1, 39, 21);
+        font-family: 'Raleway', sans-serif;
+    font-weight: 900;
+
+  }
+
+
+  .image img{
+    border-radius: 50%;
+    box-shadow: 0px 0px 10px rgba(188, 183, 183, 0.2);
+    transition: transform 0.5s ease-in-out;
+
+  }
+  

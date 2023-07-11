@@ -1,0 +1,17 @@
+.navbar{
+    background-color: hsl(153deg 40.18% 47.74%);
+    position: fixed; 
+    top: 0;
+}
+
+.buttonNav{
+    background-color: rgba(0, 0, 0, 0);
+    color: beige;
+    border: none;
+    font-weight: 600;
+}
+.buttonNav a{
+    color: beige;
+    text-decoration: none;
+
+}

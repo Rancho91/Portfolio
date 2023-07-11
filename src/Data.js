@@ -1,5 +1,6 @@
 export const proyect = [
     {
+        id:1,
         name: "CoderGame",
         image:"https://res.cloudinary.com/dxatwbzff/image/upload/v1683570816/WhatsApp_Image_2023-04-24_at_11.49.52_AM_1_tvlub9.jpg",
         git:"https://github.com/Rancho91/codergame",
@@ -9,7 +10,7 @@ export const proyect = [
         tecnologies: [
             {
                 name: "React",
-                image: "https://res.cloudinary.com/dxatwbzff/image/upload/v1681660416/Personal%20Proyects/React-logo_zp2div.png",
+                image: "https://res.cloudinary.com/dxatwbzff/image/upload/v1689040858/download_jzv11e.png",
             },
             {
                  name: "JavaScript",
@@ -19,10 +20,10 @@ export const proyect = [
                 name: "Nodejs",
                 image: "https://res.cloudinary.com/dxatwbzff/image/upload/v1681660415/Personal%20Proyects/node-js-icon-454x512-nztofx17_gyquru.png"
             },
-            // {
-            //     name: "Express",
-            //     image:"https://res.cloudinary.com/dxatwbzff/image/upload/v1681660415/Personal%20Proyects/Expressjs_caql8e.png",
-            // },
+             {
+                 name: "Express",
+                 image:"https://res.cloudinary.com/dxatwbzff/image/upload/v1681660415/Personal%20Proyects/Expressjs_caql8e.png",
+             },
             {
                 name: "CSS",
                 image: "https://res.cloudinary.com/dxatwbzff/image/upload/v1681660423/Personal%20Proyects/888847_rczm01.png",
@@ -30,10 +31,15 @@ export const proyect = [
             {
                 name:"HTML",
                 image: "https://res.cloudinary.com/dxatwbzff/image/upload/v1681660416/Personal%20Proyects/HTML5_logo_and_wordmark.svg_fci2qx.png",
+            },
+            {
+                name:"sequelize",
+                image:"https://res.cloudinary.com/dxatwbzff/image/upload/v1681688047/Personal%20Proyects/68747470733a2f2f692e696d6775722e636f6d2f79764559686e5a2e706e67_qyx8na.png"
             }
         ]
     },
     {
+        id:2,
         name: "Food",
         image: "https://res.cloudinary.com/dxatwbzff/image/upload/v1681681753/Cooking-Recipe-PNG-Images_tr7i0y.png",
         git:"https://github.com/Rancho91/PI-Food-SanchezRamiro",
@@ -42,7 +48,7 @@ export const proyect = [
         tecnologies: [
             {
                 name: "React",
-                image: "https://res.cloudinary.com/dxatwbzff/image/upload/v1681660416/Personal%20Proyects/React-logo_zp2div.png",
+                image: "https://res.cloudinary.com/dxatwbzff/image/upload/v1689040858/download_jzv11e.png",
             },
             {
                  name: "JavaScript",
@@ -52,10 +58,10 @@ export const proyect = [
                 name: "Nodejs",
                 image: "https://res.cloudinary.com/dxatwbzff/image/upload/v1681660415/Personal%20Proyects/node-js-icon-454x512-nztofx17_gyquru.png"
             },
-            // {
-            //     name: "Express",
-            //     image:"https://res.cloudinary.com/dxatwbzff/image/upload/v1681660415/Personal%20Proyects/Expressjs_caql8e.png",
-            // },
+             {
+                 name: "Express",
+                 image:"https://res.cloudinary.com/dxatwbzff/image/upload/v1681660415/Personal%20Proyects/Expressjs_caql8e.png",
+             },
             {
                 name: "CSS",
                 image: "https://res.cloudinary.com/dxatwbzff/image/upload/v1681660423/Personal%20Proyects/888847_rczm01.png",
@@ -72,6 +78,7 @@ export const proyect = [
     }
     ,
     {
+        id:3,
         name: "Rick and Morty",
         image: "https://res.cloudinary.com/dxatwbzff/image/upload/v1681660415/Personal%20Proyects/desktop-wallpaper-rick-and-morty-logo-png-for-computer-supreme-rick-and-morty_vhfbtk.jpg",
         git:"https://github.com/Rancho91/RickAndMorty",
@@ -79,7 +86,7 @@ export const proyect = [
         tecnologies: [ 
         {
             name: "React",
-            image: "https://res.cloudinary.com/dxatwbzff/image/upload/v1681660416/Personal%20Proyects/React-logo_zp2div.png",
+            image: "https://res.cloudinary.com/dxatwbzff/image/upload/v1689040858/download_jzv11e.png",
         },
         {
              name: "JavaScript",
@@ -89,10 +96,10 @@ export const proyect = [
             name: "Nodejs",
             image: "https://res.cloudinary.com/dxatwbzff/image/upload/v1681660415/Personal%20Proyects/node-js-icon-454x512-nztofx17_gyquru.png"
         },
-        // {
-        //     name: "Express",
-        //     image:"https://res.cloudinary.com/dxatwbzff/image/upload/v1681660415/Personal%20Proyects/Expressjs_caql8e.png",
-        // },
+         {
+             name: "Express",
+             image:"https://res.cloudinary.com/dxatwbzff/image/upload/v1681660415/Personal%20Proyects/Expressjs_caql8e.png",
+         },
         {
             name: "CSS",
             image: "https://res.cloudinary.com/dxatwbzff/image/upload/v1681660423/Personal%20Proyects/888847_rczm01.png",
@@ -107,7 +114,7 @@ export const proyect = [
     
 ]
 
- export const abaut = "Hola, mi nombre es Ramiro y desde que descubrí el mundo del desarrollo, me estoy formando activamente en esta carrera. Actualmente, soy estudiante de la carrera universitaria en Programación y durante mi cursado, realicé el bootcamp de Soy Henry. Este curso me permitió reafirmar mi gusto por este oficio y me incentivó a comenzar la búsqueda de mi primer trabajo en el mundo IT. Soy una persona proactiva y entusiasta, y me gusta estar en constante aprendizaje. Actualmente, estoy enfocado en perfeccionar mis habilidades en programación orientada a objetos y los principios SOLID. He notado que estos temas son importantes para el desarrollo de proyectos, el código limpio y reutilizable, y estoy motivado para aplicarlos en mi futuro trabajo. Agradezco tu tiempo y espero con ansias tu respuesta. ¡Muchas gracias!"
+ export const abaut = "Hola, mi nombre es Ramiro. Soy Desarrollador Full Stack web. Me considero una persona proactiva, entusiasta y me gusta estar en constante aprendizaje. Me encuentro en formación continua de forma autónoma y formal. Actualmente, estoy enfocado en perfeccionar mis habilidades en programación orientada a objetos y los principios SOLID. Poseo conocimientos en React, Node.JS, SQL Server, PostgreSQL, JavaScript, TypeScript, C#, entre otros"
 
 export const education=[
         {
@@ -125,4 +132,53 @@ export const education=[
     ]
 
 
-
+export const tecnologies=[
+        {
+            id:1,
+            name: "React",
+            image: "https://res.cloudinary.com/dxatwbzff/image/upload/v1681660416/Personal%20Proyects/React-logo_zp2div.png",
+            version:"18.2.0"
+        },
+        {   id:2,
+             name: "JavaScript",
+             image: "https://res.cloudinary.com/dxatwbzff/image/upload/v1681660415/Personal%20Proyects/JavaScript-logo_bprnho.png",
+             version: "5.0"
+        },
+        {   id:3,
+            name: "Nodejs",
+            image: "https://res.cloudinary.com/dxatwbzff/image/upload/v1681660415/Personal%20Proyects/node-js-icon-454x512-nztofx17_gyquru.png",
+            version:"18.13.0"
+        },
+        {   id:4,
+           name: "Express",
+          image:"https://res.cloudinary.com/dxatwbzff/image/upload/v1687436581/nodejs-express_tixqrg.png",
+          version:"4.18.2"
+         },
+        {   id:5,
+            name: "CSS",
+            image: "https://res.cloudinary.com/dxatwbzff/image/upload/v1681660423/Personal%20Proyects/888847_rczm01.png",
+            version:""
+        },
+        {   id:6,
+            name:"HTML",
+            image: "https://res.cloudinary.com/dxatwbzff/image/upload/v1681660416/Personal%20Proyects/HTML5_logo_and_wordmark.svg_fci2qx.png",
+            version:""
+        },
+        {   id:7,
+            name:"SQL-Server",
+            image:"https://res.cloudinary.com/dxatwbzff/image/upload/v1687434294/5968364_hjgz5e.png",
+            version:"SQL server 2014"    
+        },
+        {   id:8,
+            name:"C#",
+            image:"https://res.cloudinary.com/dxatwbzff/image/upload/v1687434289/download_guj3ej.jpg",
+            version:""
+        },
+        {   id:9,
+            name:"sequelize",
+            image:"https://res.cloudinary.com/dxatwbzff/image/upload/v1681688047/Personal%20Proyects/68747470733a2f2f692e696d6775722e636f6d2f79764559686e5a2e706e67_qyx8na.png",
+            version:"6.31.0"
+        }
+        
+    
+]

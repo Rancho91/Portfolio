@@ -1,0 +1,26 @@
+.buttons {
+    background-color: rgba(124, 183, 235, 0);
+    border: none;
+    border-radius: 15px;
+    color: aliceblue;
+    font-weight: bold;
+    font-family: Arial, sans-serif;
+  }
+  
+  .selected {
+    color: black;
+    border: none;
+    border-radius: 15px;
+    font-weight: bold;
+    font-family: Arial, sans-serif;
+    opacity:0;
+  }
+
+  .container{
+    padding-right: 30%;
+    width: 100%;
+  }
+
+  .img{
+    height: 20px;
+  }

@@ -6,7 +6,8 @@ import Education from './Edication'
 import { useState } from 'react'
 import { useSelector } from 'react-redux'
 import {proyectE} from "../../DataENG"
-
+import { Navbar, Nav } from 'react-bootstrap';
+import Tecnologies from '../tecnologies/tecnologies'
 const Home = () => {
     const [buttons, setButton] = useState(1);
   
@@ -19,34 +20,39 @@ const Home = () => {
   
     return (
       <div>
-        <div className='container'>
-          <div className='row '>
-            <div className='col-md-12'>
-              <button
+    <div>
+      <Navbar bg="dark" expand="lg">
+        <Navbar.Toggle aria-controls="navbarNavAltMarkup" />
+        <Navbar.Collapse id="navbarNavAltMarkup">
+          <Nav>
+            <Nav.Link id='1'><button 
                 id='1'
-                className={buttons === 1 ? styles.selected : styles.buttons}
+                className={`${buttons === 1 ? styles.selected : styles.buttons}`}
                 onClick={handleButton}
               >
-                
-                { leng==="ESP"?"Formacion Educativa":"Educational Background"}
-              </button>
-              <button
+                        { leng==="ESP"?"Formacion Educativa":"Educational Background"}
+              </button></Nav.Link>
+            <Nav.Link id='2'><button
                 id='2'
-                className={buttons === 2 ? styles.selected : styles.buttons}
+                className={`${buttons === 2 ? styles.selected : styles.buttons}`}
                 onClick={handleButton}
               >
                { leng==="ESP"?"Proyectos":"Projects"}
-              </button>
-            </div>
-          </div>
-        </div>
-  
-        <div className='container'>
-          <div className='row'>
-            <div className='col-md-12'>
-              {buttons === 1 ? <Education /> : null}
-              {buttons === 2 ? (
-                leng==="ENG"?(proyectE.map((proyect) => (
+              </button></Nav.Link>
+              <Nav.Link id='3' className="d-none d-sm-block"><button
+                id='3'
+                className={`${buttons === 3 ? styles.selected : styles.buttons}`}
+                onClick={handleButton}
+              >
+               { leng==="ESP"?"Tecnologias":"Tecnologies"}
+              </button></Nav.Link>
+              
+          </Nav>
+        </Navbar.Collapse>
+      </Navbar>
+      <div className={`col-md-12 ${styles.container}`}>
+               <Education />
+                {leng==="ENG"?(proyectE.map((proyect) => (
                   <Proyect
                     name={proyect.name}
                     image={proyect.image}
@@ -65,11 +71,12 @@ const Home = () => {
                     git={proyect.git}
                     youtube={proyect.youtube?proyect.youtube:null}
                   />
-                )))):null}
-            </div>
+                )))}
+            <Tecnologies/>
           </div>
-        </div>
-      </div>
+
+    </div>
+  </div>
     );
   };
 

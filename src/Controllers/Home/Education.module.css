@@ -11,16 +11,16 @@
 }
 
 .bo1{
-  background-color: rgba(0, 0, 0, 0.1);
+  background-color: rgb(61, 61, 61);
   padding:2%;
  margin: 2%;
  border: none;
  border-radius: 25px;
- box-shadow: inset -4px -4px 20px 8px rgb(18 102 141 / 25%);
+ box-shadow: inset -4px -4px 20px 8px rgba(159, 159, 159, 0.25);
 
 }
 .bo2{
-  background-color: rgba(0, 0, 0, 0.1);
+  background-color: rgb(61, 61, 61);
   padding:2%;
  margin: 2%;
  border: none;
